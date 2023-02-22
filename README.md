@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site URL]()
+- Live Site URL: [](https://fem-3-column-card.vercel.app/)
 
 ### Personal addition
 
@@ -40,4 +40,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@graple-guillos](frontendmentor.io/profile/graple-guillos)
+- Guilherme Pereira - [@graple-guillos](frontendmentor.io/profile/graple-guillos)
