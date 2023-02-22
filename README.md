@@ -25,7 +25,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
 - Live Site URL: [Live Site URL]()
 
 ### Personal addition
