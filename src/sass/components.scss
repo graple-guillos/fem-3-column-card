@@ -1,0 +1,115 @@
+@use "abstracts/index" as abstracts;
+@use "fonts" as fonts;
+@use "colors" as *;
+
+$btn-fnt-size: abstracts.em(13);
+
+body {
+  @include abstracts.center-stuff;
+  margin-bottom: 10vh;
+  background-color: var(--background);
+}
+
+p {
+  font-size: abstracts.rem(13);
+  word-spacing: abstracts.em(3);
+  line-height: abstracts.em(30);
+  @include fonts.lexend-deca;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: abstracts.rem(32);
+  @include fonts.big-shoulders-display;
+}
+
+
+button {
+  @include abstracts.buttons-default-style;
+  @include fonts.lexend-deca;
+  @include abstracts.padding(12px, 30px, 12px, 30px);
+  border-radius: abstracts.rem(20);
+  font-weight: 700;
+}
+
+.cards-container {
+  @include abstracts.margin(10vh, 0, 0, 0);
+}
+
+.orange-card {
+  background-color: var(--bright-orange);
+  color: var(--foreground);
+  border-radius: 10px 10px 0 0;
+
+  button {
+    color: var(--bright-orange);
+    font-size: $btn-fnt-size;
+  }
+}
+
+.dark-cyan-card {
+  background-color: var(--dark-cyan);
+  color: var(--foreground);
+
+  button {
+    color: var(--dark-cyan);
+    font-size: $btn-fnt-size;
+  }
+}
+
+.very-dark-cyan-card {
+  background-color: var(--very-dark-cyan);
+  color: var(--foreground);
+  border-radius: 0 0 10px 10px;
+
+  button {
+    color: var(--very-dark-cyan);
+    font-size: $btn-fnt-size;
+  }
+}
+
+.card {
+  @include abstracts.size(300px, 390px);
+}
+
+h1,
+p {
+  // it's very silly...
+  @include abstracts.margin(
+    abstracts.rem(25),
+    abstracts.rem(40),
+    0,
+    abstracts.rem(40)
+  );
+}
+
+img {
+  @include abstracts.margin(
+    abstracts.rem(40),
+    abstracts.rem(40),
+    0,
+    abstracts.rem(40)
+  );
+}
+
+button {
+  @include abstracts.margin(
+    abstracts.rem(20),
+    abstracts.rem(40),
+    0,
+    abstracts.rem(40)
+  );
+  transition: ease-in-out .3s;
+}
+
+.very-dark-cyan-card {
+  @include abstracts.size(300px, 370px);
+}
+
+button:hover {
+  cursor: pointer;
+  border: solid 1px white;
+  background-color: inherit;
+  color: inherit;
+}
+

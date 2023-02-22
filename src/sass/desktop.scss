@@ -1,0 +1,52 @@
+@use "abstracts" as abstracts;
+
+body {
+  @include abstracts.breakpoint(medium) {
+    overflow: hidden;
+  }
+}
+
+p {
+  @include abstracts.breakpoint(medium) {
+    font-weight: 300;
+  }
+}
+
+.cards-container {
+  @include abstracts.breakpoint(medium) {
+    margin-top: 12vh;
+    display: flex;
+  }
+}
+
+.card {
+  @include abstracts.breakpoint(medium) {
+    @include abstracts.size(260px, 450px);
+    transition: ease-in-out 0.13s;
+  }
+}
+
+.very-dark-cyan-card {
+  @include abstracts.breakpoint(medium) {
+    // height: abstracts.rem(390);
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.orange-card {
+  @include abstracts.breakpoint(medium) {
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+button {
+  @include abstracts.breakpoint(medium) {
+    margin-top: abstracts.rem(65);
+  }
+}
+
+.card:hover {
+  @include abstracts.breakpoint(medium) {
+    margin-top: -1vh;
+  }
+}

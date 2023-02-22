@@ -1,0 +1,29 @@
+@use 'functions' as functions;
+@mixin center-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin padding($top, $right, $bottom, $left){
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+@mixin margin($top, $right, $bottom, $left){
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+@mixin size($width,$height){
+  width: $width;
+  height: $height;
+}
+
+@mixin buttons-default-style {
+  border: 0;
+}

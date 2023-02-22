@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --bright-orange: #e38826;
+  --dark-cyan: #006970;
+  --very-dark-cyan: #004241;
+  --foreground: #ffffff;
+  --background: #bfbfbf;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+  background-color: var(--background);
+}
+
+p {
+  font-size: 0.8125rem;
+  word-spacing: 0.1875em;
+  line-height: 1.875em;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  border: 0;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  border-radius: 1.25rem;
+  font-weight: 700;
+}
+
+.cards-container {
+  margin-top: 10vh;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.orange-card {
+  background-color: var(--bright-orange);
+  color: var(--foreground);
+  border-radius: 10px 10px 0 0;
+}
+.orange-card button {
+  color: var(--bright-orange);
+  font-size: 0.8125em;
+}
+
+.dark-cyan-card {
+  background-color: var(--dark-cyan);
+  color: var(--foreground);
+}
+.dark-cyan-card button {
+  color: var(--dark-cyan);
+  font-size: 0.8125em;
+}
+
+.very-dark-cyan-card {
+  background-color: var(--very-dark-cyan);
+  color: var(--foreground);
+  border-radius: 0 0 10px 10px;
+}
+.very-dark-cyan-card button {
+  color: var(--very-dark-cyan);
+  font-size: 0.8125em;
+}
+
+.card {
+  width: 300px;
+  height: 390px;
+}
+
+h1,
+p {
+  margin-top: 1.5625rem;
+  margin-right: 2.5rem;
+  margin-bottom: 0;
+  margin-left: 2.5rem;
+}
+
+img {
+  margin-top: 2.5rem;
+  margin-right: 2.5rem;
+  margin-bottom: 0;
+  margin-left: 2.5rem;
+}
+
+button {
+  margin-top: 1.25rem;
+  margin-right: 2.5rem;
+  margin-bottom: 0;
+  margin-left: 2.5rem;
+  transition: ease-in-out 0.3s;
+}
+
+.very-dark-cyan-card {
+  width: 300px;
+  height: 370px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: solid 1px white;
+  background-color: inherit;
+  color: inherit;
+}
+
+@media (min-width: 58.125rem) {
+  body {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  p {
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  .cards-container {
+    margin-top: 12vh;
+    display: flex;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  .card {
+    width: 260px;
+    height: 450px;
+    transition: ease-in-out 0.13s;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  .very-dark-cyan-card {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  .orange-card {
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  button {
+    margin-top: 4.0625rem;
+  }
+}
+
+@media (min-width: 58.125rem) {
+  .card:hover {
+    margin-top: -1vh;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
