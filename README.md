@@ -20,8 +20,6 @@ Users should be able to:
 
 ### Screenshots
 
-![screenshot](screenshots/screenshot.png)
-![screenshot](screenshots/screenshot-hovercard.png)
 !![screenshot](screenshots/screenshot-hoverbutton.png)
 ![screenshot](screenshots/mobile-screenshot.png)
 
