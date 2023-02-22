@@ -27,8 +27,6 @@ Users should be able to:
 
 - Live Site URL: [Click to see the final result !](https://fem-3-column-card.vercel.app/)
 
-### Personal addition
-
 ## My process
 
 ### Built with 
